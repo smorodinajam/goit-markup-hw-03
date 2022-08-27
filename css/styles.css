@@ -355,8 +355,7 @@ body {
 }
 .portfolio-list-item {
   background-color: var(--primary-white-color);
-  border-bottom: 1px solid var(--primary-text-color);
-  width: calc((100%-60)) / 3;
+  flex-basis: calc((100%-90) / 4);
 }
 .portfolio-card-content {
   padding: 20px 24px;
